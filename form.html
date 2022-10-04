@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css" href="Style_form.css">
+</head>
+<body>
+<div id="register-form">
+  <div class="block-form">
+    <h1> Registro para nuevos usuarios</h1>
+
+    <form>
+      <label for="nombre" class="title">Nombre</label>
+      <input  type="text" class="forma" id="nombre" name="nombre" ><br><br>
+      <label for="apellido" class="title">Apellidos</label>
+      <input  type="text"  class="forma" id="apellido" name="apellidos" ><br><br>
+      <label for="tel" class="title">Telefono</label>
+      <input  type="text"  class="forma" id="tel" name="telefon" ><br><br>
+      <label for="email" class="title">email</label>
+      <input  type="email" id="email" class="forma" name="email" ><br><br>
+      <label for="pwd" class="title">Contraseña</label>
+      <input  type="password" id="pwd" class="forma" name="conraseña"><br><br>
+      <label for="pwd2" class="title">repetir Contraseña</label>
+      <input  type="password" id="pwd2" class="forma" name="conraseña"><br><br>
+
+
+      <label for="day"  class="title">Fecha de nacimiento</label>
+      <select id="day" name ="day">
+        <option value="day">day</option>
+      </select>
+      <label for="month"  class="title"></label>
+      <select name ="month" id="month">
+        <option value="month">mes</option>
+      </select>
+      <label for="year"  class="title"></label>
+      <select name ="year" id="year">
+        <option value="year">año</option>
+      </select><br><br>
+
+
+      <input type="checkbox" id="confirm" name="checkbox" class="condiciones">
+      <label for="confirm" style="word-break: break-word" class="condiciones2">He leido y acepto la condiciones de esta promocion y <br> la politica
+        de Proteccion</label><br><br>
+
+      <input type="submit" value="submit" id="botton">
+    </form>
+  </div>
+</div>
+</body>
+
+</html>

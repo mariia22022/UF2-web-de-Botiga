@@ -1,0 +1,56 @@
+#register-form{
+
+
+}
+h1{
+    text-align: center;
+}
+/*весть блок с заголовками*/
+.block-form{
+    width:600px;
+    box-sizing:border-box;
+    border: 21px;
+    padding-left: 100px;
+
+}
+/*окна ввода*/
+.forma{
+    border-radius: 5px;
+    width: 120px;
+    float: right;         /* окошки прижать справа*/
+    margin-right: 80px;   /* окошки расст справа от края*/
+    margin-top: 10px;   /* окошки расстояние между собой и краем формы*/
+}
+
+/*блок без заголовков*/
+form{
+    padding-top: 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/04/18/14/marble-2371776__340.jpg");
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 20px;
+}
+/* подписи к окнам ввода*/
+label[class="title"]{
+    font-family: Arial serif ;
+    font-weight: bold;
+    font-size: 20px;
+    width:100px;
+    margin-left: 30px;
+
+}
+/*выравнивание кнопки*/
+#botton{
+    text-align: center;
+    margin-left:150px;
+    font-size: 20px;
+}
+.condiciones{
+    margin-left: 50px;
+
+}
+.condiciones2 {
+    text-align: center;
+    margin-right: 20px;
+}
