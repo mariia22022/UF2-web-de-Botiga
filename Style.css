@@ -1,0 +1,238 @@
+.all-page{
+    width:auto ;
+
+
+}
+
+#cabecera{
+    width : auto;
+    height:115px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/19/02/12/texture-1099399__340.jpg);
+}
+
+#cabecera #logo {
+    float: left;
+}
+
+#logotext {
+    margin-right: 100px;
+    font-family: URW Chancery,cursive;
+    padding-left: 50px;
+    font-size: 25px;
+    color: firebrick;
+    float: left;
+}
+
+#buscador  {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-top: 30px;
+    float: left;
+}
+#usuario{
+    float:left;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+#cesta{
+    float:left;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+nav{
+    /*border: 1px solid black;*/
+    width :auto;
+    height:70px;
+    /*margin:0 5px;*/
+
+}
+
+ul{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+    width: 15%;
+    font-size: 30px;
+    font-family: Verdana, fantasy;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    color: red;
+    border-radius: 5px; /* Радиус скругления */
+}
+
+#block-menu li {
+    list-style-type: none; /*убираем точки */
+}
+
+
+@media screen and (max-width: 600px) {
+    #block-menu {
+        float: none;
+        width: 20%;
+        padding: 10px;
+    }
+}
+#contenido{
+    margin:5px 5px;
+    width:auto;
+    float: left;
+    height: auto;
+}
+
+#block-contenidos{
+
+    width :30% ;
+    margin: 5px;
+    height:auto;
+    float:left;
+    font-size: 20Px/* центральный блок*/
+}
+#block-contenidos p{
+    padding-left: 10px;
+}
+
+#block-contenidos img{
+    margin-right: 10px;
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#block-lateral{
+    height:auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    float:left;
+}
+#block-lateral a{
+    font-size:20px;
+    padding-left: 10px;
+
+}
+#block-lateral p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+#anuncio{
+
+}
+/*video {
+  margin-left: 10px;
+  margin-top: 80px;
+}
+*/
+h2{
+    padding-left: 15px;
+}
+
+.aviso{
+    margin-top: 30px;
+}
+
+.medida {
+    margin-top: 60px;
+}
+#footer{
+    border: 1px solid black;
+    width :auto;
+    margin:5px;
+    height:200px;
+    margin-top:2050px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/08/wooden-floor-1853417__340.jpg);
+    color: black;
+}
+.pago{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    padding-top: 20px;
+
+}
+
+.pago img{
+    padding-left: 50px;
+}
+.telefon{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.email{
+    font-size: 20px;
+    font-weight: bold;
+
+    float: left;
+    padding-left: 50px;
+    padding-top:45px;
+}
+
+.horario{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding-left: 50px;
+    padding-top:25px;
+}
+.horario p{
+    padding-left: 20px;
+}
+.horario img{
+    padding-left: 30px;
+
+}
+.contacte{
+    font-size: 30px;
+    height: 40px;
+    color:firebrick;
+    float: left;
+    margin-left:45px;
+    margin-top: 7px;
+    padding: 20px 20px;
+}
+
+.contenidor{
+    position: relative;
+    margin: 10px 30px;
+
+}
+.medida{
+    position: relative;
+    margin: 10px 30px;
+
+
+}
+.contenidor p{
+    position: absolute;
+    left:16px;
+    top:200px;
+    color:white;
+
+}
+.medida p {
+    position: absolute;
+    left: 16px;
+    top: 280px;
+    color: black;
+    font-size: 20px;
+}
+#secciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

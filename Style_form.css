@@ -1,7 +1,4 @@
-#register-form{
 
-
-}
 h1{
     text-align: center;
 }
@@ -30,6 +27,9 @@ form{
     height: 500px;
     position: relative;
     bottom: 20px;
+}
+label{
+
 }
 /* подписи к окнам ввода*/
 label[class="title"]{
