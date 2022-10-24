@@ -1,7 +1,5 @@
 .all-page{
     width:auto ;
-
-
 }
 
 #cabecera{
@@ -41,10 +39,9 @@
     margin-left: 80px;
 }
 nav{
-    /*border: 1px solid black;*/
     width :auto;
     height:70px;
-    /*margin:0 5px;*/
+
 
 }
 
@@ -211,16 +208,10 @@ h2{
     margin: 10px 30px;
 
 }
-.medida{
-    position: relative;
-    margin: 10px 30px;
-
-
-}
 .contenidor p{
     position: absolute;
     left:16px;
-    top:200px;
+    top:300px;
     color:white;
 
 }
